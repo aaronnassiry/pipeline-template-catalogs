@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-              git credentialsId: "${creds}", url: "${repo}"
+              git credentialsId: "${creds}", url: "${repo}", branch: "${branch}"
             }
         }
         stage('Build') {
