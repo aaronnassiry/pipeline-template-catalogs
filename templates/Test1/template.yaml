@@ -7,10 +7,13 @@
     - name: emailRecipient
       type: string
       displayName: Email address to be used for sending build notifications
-    - name: github_repo
+    - name: repo
       type: string
       displayName: GitHub HTTPS repo endpoint
-    - name: github_creds
+    - name: branch
+      type: string
+      displayName: your git branch
+    - name: creds
       displayName: GitHub Credentials ID
       type: credentials
       defaultValue: github-creds-example
