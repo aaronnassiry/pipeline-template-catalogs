@@ -1,0 +1,4 @@
+type: pipeline-template-catalog
+version: 1
+name: Test
+displayName: Shared Template Catalog
